@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>camera_control</class>
+ <widget class="QWidget" name="camera_control">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>409</width>
+    <height>157</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="2" rowspan="7">
+    <widget class="Line" name="line">
+     <property name="lineWidth">
+      <number>1</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="3">
+    <widget class="QPushButton" name="wide_normal">
+     <property name="text">
+      <string>Zoom Out Slow</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="QPushButton" name="tele_normal">
+     <property name="text">
+      <string>Zoom In Slow</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" rowspan="7">
+    <widget class="QTextBrowser" name="status"/>
+   </item>
+   <item row="0" column="3">
+    <widget class="QPushButton" name="tele_fast">
+     <property name="text">
+      <string>Zoom In Fast</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3">
+    <widget class="QPushButton" name="wide_fast">
+     <property name="text">
+      <string>Zoom Out Fast</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QPushButton" name="zoomstop">
+     <property name="text">
+      <string>Backup Stop Zoom</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
