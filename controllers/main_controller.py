@@ -1,8 +1,8 @@
 from PySide2 import QtWidgets
-from PySide2.QtCore import QTimer, Qt, Signal
+from PySide2.QtCore import QTimer, Qt
 from PySide2.QtNetwork import QNetworkAccessManager
 
-from camera_controller import CameraController
+from controllers.camera_controller import CameraController
 from ui.main_ui import Ui_MainWindow
 from network.ssdp import SSDPInterface, CamDesc
 
