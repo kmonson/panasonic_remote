@@ -8,8 +8,8 @@ from PySide2.QtCore import Qt, Signal, QTimer, QUrl, QUrlQuery, QByteArray
 from PySide2 import QtGui
 from PySide2.QtNetwork import QNetworkRequest, QNetworkReply
 
-from ui.camera import Ui_camera_control
-from network.ssdp import CamDesc
+from ..ui.camera import Ui_camera_control
+from ..network.ssdp import CamDesc
 
 
 class MdiSubWindowCloser(QtWidgets.QMdiSubWindow):

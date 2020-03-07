@@ -2,9 +2,9 @@ from PySide2 import QtWidgets
 from PySide2.QtCore import QTimer, Qt
 from PySide2.QtNetwork import QNetworkAccessManager
 
-from controllers.camera_controller import CameraController
-from ui.main_ui import Ui_MainWindow
-from network.ssdp import SSDPInterface, CamDesc
+from .camera_controller import CameraController
+from ..ui.main_ui import Ui_MainWindow
+from ..network.ssdp import SSDPInterface, CamDesc
 
 
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):

@@ -1,7 +1,7 @@
 import sys
 
 from PySide2 import QtWidgets
-from controllers.main_controller import MainController
+from .controllers.main_controller import MainController
 
 
 def main():
