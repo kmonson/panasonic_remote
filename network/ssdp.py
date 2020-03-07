@@ -18,7 +18,7 @@ def create_message(address, port, mx, service):
         'MAN: "ssdp:discover"',
         f'MX: {mx}',
         f'ST: {service}',
-        '', '']).encode('ANSI')
+        '', '']).encode('ascii')
 
 
 class CamDesc(NamedTuple):
