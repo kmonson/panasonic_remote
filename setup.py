@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 # Fields marked as "Optional" may be commented out.
 
 setup(
-    name='panasonic-remote',
+    name='camcorder-remote',
     version='1.0.0',
     description='Zoom remote control for Panasonic HC-W580 camcorder',
     url='https://github.com/kmonson/panasonic_remote',
@@ -19,7 +19,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'panasonic-remote=camera_controller.__main__:main',
+            'camcorder-remote=camera_controller.__main__:main',
         ],
     }
 )
