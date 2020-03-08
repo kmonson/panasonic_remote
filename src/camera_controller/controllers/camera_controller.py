@@ -76,6 +76,7 @@ class CameraController:
         self.address_str = camera_description.host.toString()
 
         self.sub_window = sub_window = MdiSubWindowCloser()
+        sub_window.setWindowTitle(self.address_str)
         sub_window.setAttribute(Qt.WA_DeleteOnClose)
         sub_window.closed.connect(self.window_closed)
         camera_control = CameraControl(parent=sub_window)
